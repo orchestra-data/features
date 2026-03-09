@@ -1,0 +1,53 @@
+{
+  "feature": "academic-scheduling",
+  "version": "1.0.0",
+  "generated_at": "2026-03-09T08:51:00Z",
+  "monorepo_base": "cogedu/",
+  "protocol": "DPP-001 v1.0",
+  "repositories": {
+    "features": "orchestra-data/features",
+    "qas": "orchestra-data/QAs",
+    "remote": "orchestra"
+  },
+
+  "summary": {
+    "total_files": 43,
+    "backend_endpoints": 17,
+    "frontend_files": 20,
+    "migrations": 0,
+    "type_files": 6,
+    "screenshots": 0,
+    "curl_evidence": 0
+  },
+
+  "install_order": [
+    "1. database/migrations/ → psql (em ordem numérica)",
+    "2. backend/endpoints/ → apps/api/src/endpoints/",
+    "3. types/api-types/ → libs/ava-api-types/src/endpoints/",
+    "4. types/database-types/ → libs/ava-database-types/src/",
+    "5. frontend/ → apps/web/src/features/academic-scheduling/",
+    "6. Registrar rota em apps/web/src/router.tsx",
+    "7. database/seeds/ → psql (opcional)",
+    "8. npm run build → verificar zero errors"
+  ],
+
+  "env_changes": {
+    "new_vars": [],
+    "modified_vars": [],
+    "keycloak_changes": false
+  },
+
+  "dependencies": {
+    "npm_new": [],
+    "npm_modified": []
+  },
+
+  "validation": {
+    "screenshots_required": 5,
+    "screenshots_found": 0,
+    "curl_evidence_required": 0,
+    "curl_evidence_found": 0,
+    "localhost_validation": false,
+    "build_passes": false
+  }
+}

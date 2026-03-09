@@ -1,0 +1,7 @@
+{
+  "gate": "HEALTH_CHECK",
+  "status": "PASS",
+  "duration_ms": 542,
+  "timestamp": "2026-03-09T08:27:06.501Z",
+  "output_preview": "\n  ══════════════════════════════════════════════════════════════════════\n  LOCALHOST HEALTH GATE — Cogedu Development Environment\n  Time: 2026-03-09T08:27:06.100Z\n  ══════════════════════════════════════════════════════════════════════\n\n  ✅ Vite Dev Server (Admin)  — http://localhost:5173          UP (377ms)\n  ✅ Backend API              — http://localhost:3000/api/health UP (21ms)\n  ✅ Keycloak                 — http://localhost:8080          UP (38ms)\n  ✅ PostgreSQL               — localhost:54"
+}

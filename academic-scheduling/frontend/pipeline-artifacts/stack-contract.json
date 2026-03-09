@@ -1,0 +1,7 @@
+{
+  "gate": "STACK_CONTRACT",
+  "status": "PASS",
+  "duration_ms": 162,
+  "timestamp": "2026-03-09T08:27:07.035Z",
+  "output_preview": "\n  ══════════════════════════════════════════════════\n  STACK CONTRACT CHECK — Cogedu Canonical Stack\n  ══════════════════════════════════════════════════\n\n  Target: C:/Projetos IA/Plataforma Cogedu/localhost/cogedu/apps/web/src/features/academic-scheduling\n  Dependencies scanned: 14\n\n  Canonical Stack (IMMUTABLE):\n    · http           → fetch (apiClient.ts)\n    ✓ ui             → @cogedu/ui\n    ✓ state          → zustand\n    ✓ serverState    → @tanstack/react-query\n    · css            → tailwi"
+}

@@ -1,0 +1,101 @@
+{
+  "pipeline": "cogedu-pipeline-gate",
+  "version": "1.0.0",
+  "feature": "C:/Projetos IA/Plataforma Cogedu/localhost/cogedu/apps/web/src/features/academic-scheduling",
+  "api": "http://localhost:3000",
+  "executed_at": "2026-03-09T08:27:08.395Z",
+  "machine": "Jarvis2",
+  "total_gates": 12,
+  "passed": 5,
+  "failed": 3,
+  "skipped": 4,
+  "warned": 0,
+  "overall": "BLOCKED",
+  "gates": [
+    {
+      "id": "CONTEXT_INJECTION",
+      "status": "PASS",
+      "duration_ms": 0,
+      "critical": false
+    },
+    {
+      "id": "HEALTH_CHECK",
+      "status": "PASS",
+      "duration_ms": 542,
+      "critical": false
+    },
+    {
+      "id": "CLASSIFICATION",
+      "status": "PASS",
+      "duration_ms": 113,
+      "critical": false
+    },
+    {
+      "id": "API_DISCOVERY",
+      "status": "FAIL",
+      "duration_ms": 253,
+      "critical": true
+    },
+    {
+      "id": "STACK_CONTRACT",
+      "status": "PASS",
+      "duration_ms": 162,
+      "critical": false
+    },
+    {
+      "id": "FEATURE_AUDIT",
+      "status": "SKIP",
+      "duration_ms": 0,
+      "critical": false
+    },
+    {
+      "id": "SECURITY_AUDIT",
+      "status": "SKIP",
+      "duration_ms": 0,
+      "critical": false
+    },
+    {
+      "id": "AWS_PARITY",
+      "status": "SKIP",
+      "duration_ms": 0,
+      "critical": false
+    },
+    {
+      "id": "ENDPOINT_LIVE",
+      "status": "PASS",
+      "duration_ms": 263,
+      "critical": false
+    },
+    {
+      "id": "EMPTY_FOLDERS",
+      "status": "FAIL",
+      "duration_ms": 119,
+      "critical": false
+    },
+    {
+      "id": "PLAYWRIGHT_SMOKE",
+      "status": "SKIP",
+      "duration_ms": 0,
+      "critical": false
+    },
+    {
+      "id": "DOCKER_SMOKE",
+      "status": "FAIL",
+      "duration_ms": 0,
+      "critical": false
+    }
+  ],
+  "artifacts": [
+    "api-discovery.json",
+    "classification.json",
+    "context-injection.md",
+    "empty-folders.json",
+    "endpoint-live.json",
+    "health-check.json",
+    "stack-contract.json"
+  ],
+  "artifacts_hash": "d35f02d30a8a5735545dcb67b05bc04f9875f321fdad9841c70846a0934474f1",
+  "blocking_gates": [
+    "API_DISCOVERY"
+  ]
+}
