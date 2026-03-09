@@ -1,7 +1,0 @@
-{
-  "gate": "CLASSIFICATION",
-  "status": "PASS",
-  "duration_ms": 113,
-  "timestamp": "2026-03-09T08:27:06.616Z",
-  "output_preview": "{\n  \"system\": \"admin\",\n  \"confidence\": 0.99,\n  \"reason\": \"Domain: academic-scheduling (1 indicator matched, score: 0.95 vs 0.00)\",\n  \"admin_score\": 0.95,\n  \"ava_score\": 0,\n  \"admin_matches\": [\n    \"Domain: academic-scheduling\"\n  ],\n  \"ava_matches\": [],\n  \"paths\": {\n    \"frontend\": \"C:/Projetos IA/Plataforma Cogedu/localhost/cogedu-main-v6/cogedu-main/apps/web/src/\",\n    \"backend\": \"C:/Projetos IA/Plataforma Cogedu/localhost/cogedu-main-v6/cogedu-main/apps/api/src/\",\n    \"components\": \"apps/web/s"
-}

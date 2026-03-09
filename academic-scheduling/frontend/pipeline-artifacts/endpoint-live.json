@@ -1,7 +1,0 @@
-{
-  "gate": "ENDPOINT_LIVE",
-  "status": "PASS",
-  "duration_ms": 263,
-  "timestamp": "2026-03-09T08:27:07.299Z",
-  "output_preview": "\n  \u001b[2mScanning 20 file(s) for API endpoints...\u001b[0m\n  \u001b[2mFound 10 unique endpoint(s). Checking...\u001b[0m\n\n\n  \u001b[1mENDPOINT LIVE CHECK\u001b[0m\n  ════════════════════════════════════════════════════════════\n  \u001b[2mAPI: http://localhost:3000\u001b[0m\n  \u001b[2mSource: C:\\Projetos IA\\Plataforma Cogedu\\localhost\\cogedu\\apps\\web\\src\\features\\academic-scheduling\u001b[0m\n  \u001b[2mTime: 2026-03-09T08:27:07.281Z\u001b[0m\n\n  \u001b[32m✅ EXISTS\u001b[0m  \u001b[32mGET   \u001b[0m /api/companies/1/academic-years \u001b[2m(401, 45ms)\u001b[0m\n  \u001b[32m✅ EXISTS\u001b[0m  \u001b[3"
-}
