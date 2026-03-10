@@ -1,0 +1,988 @@
+{
+  "manifest_version": "2.0.0",
+  "feature": {
+    "name": "Academic Scheduling",
+    "slug": "academic-scheduling",
+    "description": "Feature pack for academic-scheduling",
+    "epic": "EPIC-XXX",
+    "target": "admin"
+  },
+  "generated_at": "2026-03-10T16:23:20.368Z",
+  "generated_by": "Squad Cogedu Orchestra v2.0 — generate-manifest-v2.js",
+  "file_map": [
+    {
+      "src": "backend/endpoints/assignClassInstanceSchedule/assignClassInstanceSchedule.ts",
+      "dest": "apps/api/src/endpoints/assignClassInstanceSchedule/assignClassInstanceSchedule.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "71d546ba720769b713dffb1d786ebd315bcea871d39cae55f47d669bdcd910da"
+    },
+    {
+      "src": "backend/endpoints/assignClassInstanceSchedule/index.ts",
+      "dest": "apps/api/src/endpoints/assignClassInstanceSchedule/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "8632f2fd33bafc1f451328754d62fbeda180879679dd960b0c303c683aaf45d6"
+    },
+    {
+      "src": "backend/endpoints/createAcademicYear/createAcademicYear.ts",
+      "dest": "apps/api/src/endpoints/createAcademicYear/createAcademicYear.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "a5193ba63967e2f94e2178a5dc341b37e0bb70f87e27c80fcf9cf5d7dc838e41"
+    },
+    {
+      "src": "backend/endpoints/createCompanyBlockedDay/createCompanyBlockedDay.ts",
+      "dest": "apps/api/src/endpoints/createCompanyBlockedDay/createCompanyBlockedDay.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "1f40576aec116ada8b68661c090e94e9ef66d043ec27a10a04e8767fe6ba1e33"
+    },
+    {
+      "src": "backend/endpoints/createCompanyBlockedDay/index.ts",
+      "dest": "apps/api/src/endpoints/createCompanyBlockedDay/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "82f43feaa8cf71e58c12ce8975ec18d1922383b1009ee4357fa13e6e34208e16"
+    },
+    {
+      "src": "backend/endpoints/createCompanyEvent/createCompanyEvent.ts",
+      "dest": "apps/api/src/endpoints/createCompanyEvent/createCompanyEvent.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "1a2eec200237893036dabf7ffa56a50e3fbe1862016968fc730b1ab03656a3ce"
+    },
+    {
+      "src": "backend/endpoints/createRecurrenceGroup/createRecurrenceGroup.ts",
+      "dest": "apps/api/src/endpoints/createRecurrenceGroup/createRecurrenceGroup.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "af164fbbcbd0a4af29f2a5dc4f9d63604aacf232764b379293de1f9001e4a5d6"
+    },
+    {
+      "src": "backend/endpoints/createRecurrenceGroup/index.ts",
+      "dest": "apps/api/src/endpoints/createRecurrenceGroup/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "49c34764cc1da30beb542543db0f16971a7da0090536cc6470758eb58387297d"
+    },
+    {
+      "src": "backend/endpoints/deleteAcademicYear/deleteAcademicYear.ts",
+      "dest": "apps/api/src/endpoints/deleteAcademicYear/deleteAcademicYear.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "8a159c85dc6f1ac37710cf17df9f043be7322a5d94c5469dd80b378adea203c7"
+    },
+    {
+      "src": "backend/endpoints/deleteCompanyBlockedDay/deleteCompanyBlockedDay.ts",
+      "dest": "apps/api/src/endpoints/deleteCompanyBlockedDay/deleteCompanyBlockedDay.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "9a17ce2fa611aa5cbff183085fa9f834b73402e0e49400de0f3d8f311f205f7b"
+    },
+    {
+      "src": "backend/endpoints/deleteCompanyBlockedDay/index.ts",
+      "dest": "apps/api/src/endpoints/deleteCompanyBlockedDay/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "1d12c6ced0ffdd79d0dbd8271aadc999c41f57e25857e916ae4e02ea3cabec30"
+    },
+    {
+      "src": "backend/endpoints/deleteCompanyEvent/deleteCompanyEvent.ts",
+      "dest": "apps/api/src/endpoints/deleteCompanyEvent/deleteCompanyEvent.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "e07d4c0e127ca71b4a66a7bbf2bb687b88d9414934d4a6a8f24849d1050326aa"
+    },
+    {
+      "src": "backend/endpoints/discoverHolidays/discoverHolidays.ts",
+      "dest": "apps/api/src/endpoints/discoverHolidays/discoverHolidays.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "f2a7f30fe4e4b25dd1335ea857d9c25894a5df53705e1201ed80012e01437e1a"
+    },
+    {
+      "src": "backend/endpoints/discoverHolidays/index.ts",
+      "dest": "apps/api/src/endpoints/discoverHolidays/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "6c18269195f8bbe1ed75d323e820518484b712de93198367e61d090ae5b0374b"
+    },
+    {
+      "src": "backend/endpoints/exportCalendarICS/exportCalendarICS.ts",
+      "dest": "apps/api/src/endpoints/exportCalendarICS/exportCalendarICS.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "3fe6d7617336aa84b9d91c3144b7427f6e7b1f40bc9cc5d784a219d4cab1c225"
+    },
+    {
+      "src": "backend/endpoints/exportMECReport/exportMECReport.ts",
+      "dest": "apps/api/src/endpoints/exportMECReport/exportMECReport.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "2d52c09c903c076329073064104955e1db56b26192c47b071311a2eba528b5d1"
+    },
+    {
+      "src": "backend/endpoints/getAcademicYearHolidays/getAcademicYearHolidays.ts",
+      "dest": "apps/api/src/endpoints/getAcademicYearHolidays/getAcademicYearHolidays.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "2cf96d573d60025ff7006a310bd7f4ba5af25f8ecda21f9fdfadb410366cc842"
+    },
+    {
+      "src": "backend/endpoints/getAcademicYears/getAcademicYears.ts",
+      "dest": "apps/api/src/endpoints/getAcademicYears/getAcademicYears.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "d45479ddfe9b75ef598697b521dbc93758ab1f6ec0f70984a0124d83b8b170f6"
+    },
+    {
+      "src": "backend/endpoints/getAcademicYearStats/getAcademicYearStats.ts",
+      "dest": "apps/api/src/endpoints/getAcademicYearStats/getAcademicYearStats.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "337773616f57300cd78d1e347f06d3725a3cf4da2236bb9288fc20bf4b11bd6e"
+    },
+    {
+      "src": "backend/endpoints/getClassInstanceSchedule/getClassInstanceSchedule.ts",
+      "dest": "apps/api/src/endpoints/getClassInstanceSchedule/getClassInstanceSchedule.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "200c71ce2d2f3539e6c6e9c2413a86c9962871b74b79846e474a64319c6ec55d"
+    },
+    {
+      "src": "backend/endpoints/getClassInstanceSchedule/index.ts",
+      "dest": "apps/api/src/endpoints/getClassInstanceSchedule/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "7d321626437bf079b10581335c41adc671e16cc73b08212f998f4d8a7a5d0d5b"
+    },
+    {
+      "src": "backend/endpoints/getCompanyBlockedDays/getCompanyBlockedDays.ts",
+      "dest": "apps/api/src/endpoints/getCompanyBlockedDays/getCompanyBlockedDays.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "320261a46f85b787b2137f82d541022dcb4d84932abd3a1493c8e6bab3aaed7c"
+    },
+    {
+      "src": "backend/endpoints/getCompanyBlockedDays/index.ts",
+      "dest": "apps/api/src/endpoints/getCompanyBlockedDays/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "a26488636c2e968fc3f49e5a0e91066d6306783d36efbe05b0504f462b0cc545"
+    },
+    {
+      "src": "backend/endpoints/getCompanyEvent/getCompanyEvent.ts",
+      "dest": "apps/api/src/endpoints/getCompanyEvent/getCompanyEvent.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "d5a9a8d4d7ac550751fc4677fa4d1da45b88392d46a544b66efb9b88bf254bdd"
+    },
+    {
+      "src": "backend/endpoints/getCompanyEventsCalendar/getCompanyEventsCalendar.ts",
+      "dest": "apps/api/src/endpoints/getCompanyEventsCalendar/getCompanyEventsCalendar.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "057e170c14afcf276fb3e31ab534f6be8eb6608c43b1599586103bcf2eb57b8b"
+    },
+    {
+      "src": "backend/endpoints/getPublicHolidays/getPublicHolidays.ts",
+      "dest": "apps/api/src/endpoints/getPublicHolidays/getPublicHolidays.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "ab227035fecb901a4f3198798391ddbd62a78c3beae913cdf92e083e295404e2"
+    },
+    {
+      "src": "backend/endpoints/getPublicHolidays/index.ts",
+      "dest": "apps/api/src/endpoints/getPublicHolidays/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "2aec94c8f5f557790fbef16e3753f966683b932579eadf8f8666356d92296a15"
+    },
+    {
+      "src": "backend/endpoints/listCompanyEvents/listCompanyEvents.ts",
+      "dest": "apps/api/src/endpoints/listCompanyEvents/listCompanyEvents.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "fe25cde2b7a9d635c4d28dbab8b646b4de6b0f6ab2aa8d0be5c11dbbff9fd1ca"
+    },
+    {
+      "src": "backend/endpoints/previewCompanyBlockedDay/index.ts",
+      "dest": "apps/api/src/endpoints/previewCompanyBlockedDay/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "e32c1031cd1ef7ee2e2efb97360a0ca2a2ef582d2c9522e1c7eec964e13f0ed5"
+    },
+    {
+      "src": "backend/endpoints/previewCompanyBlockedDay/previewCompanyBlockedDay.ts",
+      "dest": "apps/api/src/endpoints/previewCompanyBlockedDay/previewCompanyBlockedDay.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "734256f9f67026d5fa3eb35c1bc31127eaaf0980fdca13b6ee9cd32700a1cc57"
+    },
+    {
+      "src": "backend/endpoints/shiftRecurrenceGroup/index.ts",
+      "dest": "apps/api/src/endpoints/shiftRecurrenceGroup/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "250046f18b5bcd97c955d3e1d45147f2cec25537e0aed3ceca7dc0a5f6a3a319"
+    },
+    {
+      "src": "backend/endpoints/shiftRecurrenceGroup/shiftRecurrenceGroup.ts",
+      "dest": "apps/api/src/endpoints/shiftRecurrenceGroup/shiftRecurrenceGroup.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "660cda954f868cf15d73fe834c42ffb4c585667117fc323facb0f72cc760e55f"
+    },
+    {
+      "src": "backend/endpoints/splitRecurrenceGroup/index.ts",
+      "dest": "apps/api/src/endpoints/splitRecurrenceGroup/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "dd9e0fb2c2ba595dfe61ecda097c90d04b42a43e7381cc2124266d55de61f27a"
+    },
+    {
+      "src": "backend/endpoints/splitRecurrenceGroup/splitRecurrenceGroup.ts",
+      "dest": "apps/api/src/endpoints/splitRecurrenceGroup/splitRecurrenceGroup.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "c00a02dbd2dfb31ede5b60da5c60524b4cf68aa47c8d7231e3a0362bc77848f2"
+    },
+    {
+      "src": "backend/endpoints/syncHolidays/index.ts",
+      "dest": "apps/api/src/endpoints/syncHolidays/index.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "e9c51db4147e20ba59079c0161f8b836e62abcb0c9bac5be0a00d964460da9a0"
+    },
+    {
+      "src": "backend/endpoints/syncHolidays/syncHolidays.ts",
+      "dest": "apps/api/src/endpoints/syncHolidays/syncHolidays.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "441fa1113c360d39d614a77ab8f4b3ed55bc6a1f0ee2ef49a92f8e6a771ca014"
+    },
+    {
+      "src": "backend/endpoints/updateAcademicYear/updateAcademicYear.ts",
+      "dest": "apps/api/src/endpoints/updateAcademicYear/updateAcademicYear.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "68fd63d95db86856409c51809f52c3ff2fcf20628a4abaa65ba844cc8a25692a"
+    },
+    {
+      "src": "backend/endpoints/updateCompanyBlockedDay/updateCompanyBlockedDay.ts",
+      "dest": "apps/api/src/endpoints/updateCompanyBlockedDay/updateCompanyBlockedDay.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "60ccd0a462f3f35526ca5c1f0aa4e84a598f3d03ab74488db428c25870108d25"
+    },
+    {
+      "src": "backend/endpoints/updateCompanyEvent/updateCompanyEvent.ts",
+      "dest": "apps/api/src/endpoints/updateCompanyEvent/updateCompanyEvent.ts",
+      "type": "endpoint",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "1e0ed11008f42f2ba9606a232189c793589511bc9ed854267ccf6172a9570c67"
+    },
+    {
+      "src": "frontend/AcademicSchedulingModule.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/AcademicSchedulingModule.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "3601bb7617853e474142ec529579115e742d57f518eba6fba887e3511d35011b"
+    },
+    {
+      "src": "frontend/components/AcademicYearPanel.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/AcademicYearPanel.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "0cb07b9b03955eeb8f1e6af103b86648999a19a031da8d1f242d5e724af7cfcf"
+    },
+    {
+      "src": "frontend/components/BatchSchedulerModal.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/BatchSchedulerModal.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "f911fe7dadb491cd12edbe8708e4a50c91bb239bfdd8d7dddfc87668f077cfb7"
+    },
+    {
+      "src": "frontend/components/CalendarView.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/CalendarView.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "6668b9d07c75ad063cd43aad499653fc436744e0e4a8294f5da0d83bca37ee2d"
+    },
+    {
+      "src": "frontend/components/ComponentDetailModal.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/ComponentDetailModal.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "aa6046c5e1d15a1f6b4319b3ea18eec30caf388fd0b5bf96062441c4731aa3e2"
+    },
+    {
+      "src": "frontend/components/ComponentInlineEditor.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/ComponentInlineEditor.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "c9fa22ce18b91f63243791e71fd80ea7ae1c62a539b9c80fe943bd265491233f"
+    },
+    {
+      "src": "frontend/components/ConflictWarningModal.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/ConflictWarningModal.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "d0594ae986f1748f27c13248871452dfe0c1b74483638c2ac0214c12f3fdaf14"
+    },
+    {
+      "src": "frontend/components/DayDetailPanel.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/DayDetailPanel.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "a8269dbf85f9d7a88c89860b27855af33f6c0518df09719f40400286ab46b28d"
+    },
+    {
+      "src": "frontend/components/EventModal.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/EventModal.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "59d7dfaf7993f3959caec0717581a53596cfe8596bfaf26847de8584f26d63ea"
+    },
+    {
+      "src": "frontend/components/HolidayDiscovery.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/HolidayDiscovery.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "bc6ab493c60b22cff81f4e2abd38219266c2076910fdc95dd836a0c6f931c9f6"
+    },
+    {
+      "src": "frontend/components/MoveWarningModal.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/MoveWarningModal.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "bd28d4a848f7519d929bc45b4ce6d687c17ee44c503e10dcccf2d454f64cbf7c"
+    },
+    {
+      "src": "frontend/components/QuickActionsPopover.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/QuickActionsPopover.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "4e5bea8da7a5170367a8198e8a0f84dab692127de39cb7b1c57fa0bd7a5ef399"
+    },
+    {
+      "src": "frontend/components/SelectionWizard.tsx",
+      "dest": "apps/web/src/features/academic-scheduling/components/SelectionWizard.tsx",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "b74e0c67b14a83dc551ba7d9220a6688ef205a59f95be3e2d8a83bf4900cebba"
+    },
+    {
+      "src": "frontend/CONTEXT_INJECTION.md",
+      "dest": "apps/web/src/features/academic-scheduling/CONTEXT_INJECTION.md",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "d9166ad82ab55fe01a22c4ea4dfa905d22c29b9c58bbe3c99637e57caecb51b5"
+    },
+    {
+      "src": "frontend/hooks/useAcademicYear.ts",
+      "dest": "apps/web/src/features/academic-scheduling/hooks/useAcademicYear.ts",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "fa01f13f4569aae18f45f829382423a270d75cf131470027b01b21444e265178"
+    },
+    {
+      "src": "frontend/hooks/useCalendarEvents.ts",
+      "dest": "apps/web/src/features/academic-scheduling/hooks/useCalendarEvents.ts",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "004567619a42d50dd36c36ef56195b29ae51654b36b1eab0fef8a4470ae180af"
+    },
+    {
+      "src": "frontend/hooks/useEventDragDrop.ts",
+      "dest": "apps/web/src/features/academic-scheduling/hooks/useEventDragDrop.ts",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "64aa7e7b729f406cee1944ab9244bd767a452a8fcdb58a0bb02850258fe270ba"
+    },
+    {
+      "src": "frontend/hooks/useHierarchyData.ts",
+      "dest": "apps/web/src/features/academic-scheduling/hooks/useHierarchyData.ts",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "36bd7ec8b50b2fc9d361f8a654d5b40ee6b0ddd0952552c5c73f27bc1d3c50bd"
+    },
+    {
+      "src": "frontend/hooks/useHolidayCascade.ts",
+      "dest": "apps/web/src/features/academic-scheduling/hooks/useHolidayCascade.ts",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "1ba0f3fcc94a0c8e7d20d7d8e32831da3e2e0d60ed20d364dfb2c3f64987d2e5"
+    },
+    {
+      "src": "frontend/index.ts",
+      "dest": "apps/web/src/features/academic-scheduling/index.ts",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "441bbc64e9ec84317df6798feb9bf9ebc72f4fb9548890e7221ff55d7f062092"
+    },
+    {
+      "src": "frontend/stores/useSchedulingStore.ts",
+      "dest": "apps/web/src/features/academic-scheduling/stores/useSchedulingStore.ts",
+      "type": "frontend",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "3168a50577385990d9f6271e5d57bf3bccba1760e0f306835b468b5c5e1664ca"
+    },
+    {
+      "src": "database/migrations/1903000002--add_scheduled_date_to_component.sql",
+      "dest": "libs/migrations/identity/1903000002--add_scheduled_date_to_component.sql",
+      "type": "migration",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "af700e719dbea5a26d234e1e90b882c73d13a1534b1d437c6dbd04c6be87c64e"
+    },
+    {
+      "src": "database/migrations/202603040002--create_class_instance_component_schedule.sql",
+      "dest": "libs/migrations/identity/202603040002--create_class_instance_component_schedule.sql",
+      "type": "migration",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "3cfb641a7ab4d89cecab188686182e45592df28f26050fc0d92fd435910b37ec"
+    },
+    {
+      "src": "database/migrations/202603040003--create_company_blocked_day.sql",
+      "dest": "libs/migrations/identity/202603040003--create_company_blocked_day.sql",
+      "type": "migration",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "ad3039a30d8bcd230540e74ba16ebfca0565af9eb215de745595e02c1c36458b"
+    },
+    {
+      "src": "database/migrations/202603040005--add_company_event_id_to_schedule.sql",
+      "dest": "libs/migrations/identity/202603040005--add_company_event_id_to_schedule.sql",
+      "type": "migration",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "0c23d00e7db161b95788e4fc0679dc77862fda2b0954aab477bc92191e7dec3f"
+    },
+    {
+      "src": "database/migrations/202603050001--add_archived_status_to_company_event.sql",
+      "dest": "libs/migrations/identity/202603050001--add_archived_status_to_company_event.sql",
+      "type": "migration",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "b0c39afa806d5672f7a779d458bb9d497363a2739e9345736833f918c9d525ca"
+    },
+    {
+      "src": "database/migrations/202603080002--add_recurrence_columns_to_company_event.sql",
+      "dest": "libs/migrations/identity/202603080002--add_recurrence_columns_to_company_event.sql",
+      "type": "migration",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "b8babc73d944e6d73a9169e8274e2956657816bee799b7364d84e379445af6d2"
+    },
+    {
+      "src": "database/migrations/202603080003--create_holiday_source.sql",
+      "dest": "libs/migrations/identity/202603080003--create_holiday_source.sql",
+      "type": "migration",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "06292fcbd534c14ba89db2cea32f3b6cb776c65b3ce116cdc3d6acd7021db8ba"
+    },
+    {
+      "src": "types/database-types/academic-year-row.ts",
+      "dest": "libs/ava-database-types/src/academic-year-row.ts",
+      "type": "db-type",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "fea0cea0b00e9fd4db53564547161d49b5b7a9fa743ae28d9b3dcb2f0593795c"
+    },
+    {
+      "src": "types/database-types/class-instance-component-schedule-row.ts",
+      "dest": "libs/ava-database-types/src/class-instance-component-schedule-row.ts",
+      "type": "db-type",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "db7a43e573aa8c2648e1631f87487eb443b2b5a4d414dc23b666ece83113530b"
+    },
+    {
+      "src": "types/database-types/company-blocked-day-row.ts",
+      "dest": "libs/ava-database-types/src/company-blocked-day-row.ts",
+      "type": "db-type",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "b87c7b942c4dfd4013b6922f60173687273793da6b337e662da86add3135e104"
+    },
+    {
+      "src": "types/database-types/company-event-row.ts",
+      "dest": "libs/ava-database-types/src/company-event-row.ts",
+      "type": "db-type",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "74e872f6f1c4586796fc0007918f5183efae61b4b83cb31710b842cda66f1717"
+    },
+    {
+      "src": "types/database-types/holiday-source-row.ts",
+      "dest": "libs/ava-database-types/src/holiday-source-row.ts",
+      "type": "db-type",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "c92f34bbb3dd46f7983e7595633956dc8c1905449d996861a70af0ffe787f7f5"
+    },
+    {
+      "src": "types/database-types/recurrence-group-row.ts",
+      "dest": "libs/ava-database-types/src/recurrence-group-row.ts",
+      "type": "db-type",
+      "action": "copy",
+      "overwrite": false,
+      "checksum": "dd1e14ad7a29b4dd097c648779583718d7423dc2e051800ccedb4c6bd550fb43"
+    }
+  ],
+  "install_steps": [
+    {
+      "order": 1,
+      "name": "Run database migrations",
+      "type": "migration",
+      "command": "npm run migrate:dev",
+      "rollback_command": "# Manual: revert migrations in reverse order",
+      "validate_command": "PGPASSWORD=postgres psql -h localhost -U postgres -d dev -c \"\\dt\" | grep -c \"class_instance_component_schedule\"",
+      "blocking": true
+    },
+    {
+      "order": 2,
+      "name": "Copy backend endpoints",
+      "type": "copy-endpoints",
+      "command": "# Handled by feature-install.sh — copies 39 endpoint files",
+      "rollback_command": "# Handled by feature-install.sh --rollback",
+      "validate_command": "ls apps/api/src/endpoints/ | grep -ci \"academicyear\"",
+      "blocking": true
+    },
+    {
+      "order": 3,
+      "name": "Copy type definitions",
+      "type": "copy-types",
+      "command": "# Handled by feature-install.sh",
+      "rollback_command": "# Handled by feature-install.sh --rollback",
+      "validate_command": "npm --workspace @cogedu/ava-api-types run build && npm --workspace @cogedu/ava-database-types run build",
+      "blocking": true
+    },
+    {
+      "order": 4,
+      "name": "Copy frontend files",
+      "type": "copy-frontend",
+      "command": "# Handled by feature-install.sh — copies to apps/web/src/features/academic-scheduling/",
+      "rollback_command": "rm -rf apps/web/src/features/academic-scheduling",
+      "validate_command": "ls apps/web/src/features/academic-scheduling/",
+      "blocking": true
+    },
+    {
+      "order": 5,
+      "name": "Register route in router.tsx",
+      "type": "register-route",
+      "command": "# Handled by feature-install.sh — patches router.tsx",
+      "rollback_command": "# Restore router.tsx from .bak file",
+      "validate_command": "grep \"academic-scheduling\" apps/web/src/router.tsx",
+      "blocking": true
+    },
+    {
+      "order": 6,
+      "name": "Install npm dependencies",
+      "type": "install-deps",
+      "command": "npm install react-router-dom lucide-react sonner @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/interaction @fullcalendar/core @tanstack/react-query",
+      "rollback_command": "npm uninstall react-router-dom lucide-react sonner @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/interaction @fullcalendar/core @tanstack/react-query",
+      "validate_command": "npm ls react-router-dom 2>/dev/null",
+      "blocking": false
+    },
+    {
+      "order": 7,
+      "name": "Build and validate",
+      "type": "build-check",
+      "command": "npm --workspace @cogedu/ava-api-types run build && npm --workspace @cogedu/ava-database-types run build && npm --workspace @cogedu/event-types run build && cd apps/web && npx tsc --noEmit",
+      "rollback_command": "# Nothing to rollback",
+      "validate_command": "cd apps/web && npx tsc --noEmit 2>&1 | grep -c \"error\" | grep \"^0$\"",
+      "blocking": true
+    }
+  ],
+  "route_registration": {
+    "file": "apps/web/src/router.tsx",
+    "imports_to_add": [
+      "const academicSchedulingModule = lazy(() => import('@/features/academic-scheduling'))"
+    ],
+    "route_block": "          { path: 'academic-scheduling', element: <Suspense fallback={<div>Loading...</div>}><AcademicSchedulingModule /></Suspense> },",
+    "insert_after": "// FEATURE_ROUTES_ANCHOR"
+  },
+  "dependencies": {
+    "npm_install": [
+      "react-router-dom",
+      "lucide-react",
+      "sonner",
+      "@fullcalendar/react",
+      "@fullcalendar/daygrid",
+      "@fullcalendar/timegrid",
+      "@fullcalendar/interaction",
+      "@fullcalendar/core",
+      "@tanstack/react-query"
+    ],
+    "env_vars": [],
+    "keycloak_changes": false,
+    "docker_changes": false
+  },
+  "database": {
+    "tables_required": [
+      "company",
+      "class_instance"
+    ],
+    "tables_created": [
+      "class_instance_component_schedule",
+      "company_blocked_day",
+      "holiday_source"
+    ],
+    "tables_altered": [
+      "component",
+      "company_event"
+    ],
+    "column_gotchas": [
+      {
+        "wrong": "start_date",
+        "correct": "start_datetime",
+        "table": "company_event"
+      },
+      {
+        "wrong": "end_date",
+        "correct": "end_datetime",
+        "table": "company_event"
+      },
+      {
+        "wrong": "created_by",
+        "correct": "created_by_user_id",
+        "table": "company_event"
+      },
+      {
+        "wrong": "component_id",
+        "correct": "class_instance_id",
+        "table": "*"
+      }
+    ]
+  },
+  "validation": {
+    "endpoints_expected": [
+      {
+        "method": "POST",
+        "path": "/api/assignClassInstanceSchedule",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "POST",
+        "path": "/companies/:companyId/academic-years",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "POST",
+        "path": "/api/createCompanyBlockedDay",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "POST",
+        "path": "/companies/:companyId/events",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "POST",
+        "path": "/companies/:companyId/recurrence-groups",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "DELETE",
+        "path": "/companies/:companyId/academic-years/:calendarId",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "DELETE",
+        "path": "/api/deleteCompanyBlockedDay",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "DELETE",
+        "path": "/companies/:companyId/events/:eventId",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/companies/:companyId/holidays/discover",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/companies/:companyId/events/export.ics",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/companies/:companyId/academic-years/:calendarId/mec-report",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/companies/:companyId/academic-years/:calendarId/holidays",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/companies/:companyId/academic-years",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/companies/:companyId/academic-years/:calendarId/stats",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/api/getClassInstanceSchedule",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/api/getCompanyBlockedDays",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/companies/:companyId/events/:eventId",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/companies/:companyId/events/calendar",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/api/getPublicHolidays",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/companies/:companyId/events",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "GET",
+        "path": "/api/previewCompanyBlockedDay",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "POST",
+        "path": "/recurrence-groups/:groupId/shift",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "POST",
+        "path": "/recurrence-groups/:groupId/split",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "POST",
+        "path": "/companies/:companyId/holidays/sync",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "PUT",
+        "path": "/companies/:companyId/academic-years/:calendarId",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "PUT",
+        "path": "/api/updateCompanyBlockedDay",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      },
+      {
+        "method": "PATCH",
+        "path": "/companies/:companyId/events/:eventId",
+        "expected_status": 200,
+        "needs_auth": true,
+        "needs_data": false
+      }
+    ],
+    "health_checks": [
+      {
+        "name": "API health",
+        "command": "curl -sf http://localhost:3000/health",
+        "expected": "{\"status\":\"ok\"}"
+      },
+      {
+        "name": "Feature endpoint reachable",
+        "command": "curl -sf -o /dev/null -w \"%{http_code}\" http://localhost:3000/api/assignClassInstanceSchedule",
+        "expected": "200 or 401"
+      },
+      {
+        "name": "Frontend builds",
+        "command": "cd apps/web && npx tsc --noEmit",
+        "expected": "exit 0"
+      }
+    ],
+    "screenshots": [
+      {
+        "name": "01-dashboard",
+        "file": "screenshots/01-dashboard.png",
+        "description": "Dashboard principal logado como Admin CogEdu"
+      },
+      {
+        "name": "02-calendario-main",
+        "file": "screenshots/02-calendario-main.png",
+        "description": "Calendario academico com aulas e eventos (Marco 2026)"
+      },
+      {
+        "name": "03-event-detail",
+        "file": "screenshots/03-event-detail.png",
+        "description": "Calendario com feriados de Carnaval marcados (Fevereiro 2026)"
+      },
+      {
+        "name": "04-feriados",
+        "file": "screenshots/04-feriados.png",
+        "description": "Painel de Feriados com Buscar Feriados Nacionais"
+      }
+    ]
+  },
+  "troubleshooting": [
+    {
+      "symptom": "TypeError: Cannot read properties of undefined (reading 'map')",
+      "cause": "API returns empty array or null instead of expected data structure",
+      "fix": "Check that seed data exists. Run: PGPASSWORD=postgres psql -h localhost -U postgres -d dev -c \"SELECT count(*) FROM company_event\""
+    },
+    {
+      "symptom": "column \"start_date\" does not exist",
+      "cause": "Wrong column name — the actual column is start_datetime (timestamptz)",
+      "fix": "Replace start_date with start_datetime in all queries"
+    },
+    {
+      "symptom": "401 Unauthorized on API calls",
+      "cause": "Keycloak token not configured or expired",
+      "fix": "Set DEV_AUTO_AUTH=1 in .env for development, or get token: curl -X POST http://localhost:8080/realms/cogedu/protocol/openid-connect/token -d \"client_id=web&grant_type=password&username=admin&password=admin\""
+    },
+    {
+      "symptom": "Module not found: @fullcalendar/*",
+      "cause": "FullCalendar packages not installed",
+      "fix": "Run: npm install @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/interaction @fullcalendar/core"
+    },
+    {
+      "symptom": "Route not rendering / blank page",
+      "cause": "Feature route not registered in router.tsx",
+      "fix": "Check that router.tsx contains a route for the feature slug. The install script should have added it automatically."
+    },
+    {
+      "symptom": "npm run build fails with TS errors",
+      "cause": "Type packages not built before web build",
+      "fix": "Run: npm --workspace @cogedu/ava-api-types run build && npm --workspace @cogedu/ava-database-types run build && npm --workspace @cogedu/event-types run build"
+    }
+  ]
+}
