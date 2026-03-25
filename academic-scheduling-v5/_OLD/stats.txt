@@ -1,0 +1,23 @@
+Session 2: 2026-03-25 (5 commits, 22 total)
+
+Backend: 9 endpoints (all tested via curl + Playwright)
+Frontend: 18 components (6 new this session)
+E2E tests: 10/10 passing (Playwright, headless Chromium)
+Lines added session 2: ~2000
+
+New components this session:
+  - RecurrencePicker.tsx — Google Calendar-style recurrence (freq/weekdays/end/skip)
+  - RecurrenceEditDialog.tsx — this/following/all scope (R6) + real split/shift API
+  - HolidayNegotiationModal.tsx — R1 holiday enforcement + next-business-day
+  - CascadePushPreviewModal.tsx — R11 dry-run preview, R12 cross-month, R13 atomic
+  - ConflictResolutionPanel.tsx — Story 4.2 detect + bulk resolve
+  - Fix: unit_title/series_title transformer (was "Sem modulo")
+
+Epic coverage:
+  Epic 1 (Base Calendar) — 100%
+  Epic 2 (Recurrence) — 90% (RecurrencePicker + EditDialog + BatchScheduler)
+  Epic 3 (Holiday Guard) — 100% (HolidayNegotiationModal + blocked days)
+  Epic 4 (Conflicts + Cascade) — 80% (ConflictResolutionPanel + CascadePush preview)
+  Epic 5 (Constraints) — Not started
+  Epic 6 (Sharing) — Not started
+  Epic 7 (IA Chat) — Not started

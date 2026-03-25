@@ -1,0 +1,25 @@
+5ca1900 fix(e2e): handle Keycloak re-auth in goToTab8 + bump timeouts
+fd40aad feat(calendar): Story 2.2 + 4.2 — recurrence split/shift + conflict resolution
+2328470 test(calendar): 10 Playwright E2E tests — all passing
+af07cc7 feat(calendar): Epic 2-4 — recurrence picker, holiday negotiation, cascade push preview
+b59eb9a fix(calendar): map unit_title and series_title in component transformer
+4553a39 feat(orch-admin): tool calling + widget conectado ao /orch-admin/chat
+9f2e691 fix(calendar): use REAL data — listComponents returns unit_title + series_title
+3764cd4 fix(calendar): institution events have NO component, turma events require one
+0db92c2 feat(calendar): Epic B — edit existing events with component management
+092451b feat(calendar): new event modal — scope first (institution vs turma)
+14b3456 feat(calendar): turma multi-picker replaces 4-step wizard
+15f3372 feat(calendar): create new component via API when selecting type
+bb3e454 feat(calendar): unified EventModal — consistent UX for create and edit
+bf514c7 feat(calendar): EventModal step 1 — existing + new component creation
+80a3027 feat(calendar): EventModal step 1 redesign — day overview + cascade dropdowns
+7b69f91 feat(calendar): 2-step EventModal — pick component then configure
+f18fe1c feat(calendar): show component picker in edit mode, allow linking components
+789630a feat(calendar): show all institution events without turma, allow ad-hoc events
+a741607 fix(calendar): DayDetailPanel now shows events for selected day
+1af2ed2 fix(calendar): academic year panel always visible (institution-level, not turma)
+5937654 feat(calendar): cascade push + conflict detection + next business day
+806e640 feat(calendar): JOIN component data in events-calendar endpoint
+76eea85 fix(calendar): remove SQL aliases causing undefined start/end in events-calendar
+31da6f5 feat(orch-admin): EPIC-04 — Intelligent Page-Guide for Admin staff
+a9824c2 fix(academic-scheduling): toast [object Object], userId FK, calendar navigation + 478 events seed
